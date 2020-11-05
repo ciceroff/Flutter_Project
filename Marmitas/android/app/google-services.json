@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "662424664674",
+    "firebase_url": "https://projeto-marmitas.firebaseio.com",
+    "project_id": "projeto-marmitas",
+    "storage_bucket": "projeto-marmitas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662424664674:android:b01dfdd3ba8a1e20496f3b",
+        "android_client_info": {
+          "package_name": "com.example.Marmitas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "662424664674-oubhj3ujnilq4ns14o80hv04gjrit929.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAhOxqjPqYkUw8I4jmFtZcmn3BdmmKAe0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "662424664674-oubhj3ujnilq4ns14o80hv04gjrit929.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
