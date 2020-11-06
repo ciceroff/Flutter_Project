@@ -1,8 +1,6 @@
 import 'dart:async';
-import 'package:flutter/cupertino.dart';
-
-import 'Requisicao/requisicao.dart';
-import 'models/pedido_marmita.dart';
+import 'package:Marmitas/Requisicao/requisicao.dart';
+import 'package:Marmitas/models/pedido_marmita.dart';
 
 class PedidoBLoC {
   final _controller = StreamController<List<Marmita>>();

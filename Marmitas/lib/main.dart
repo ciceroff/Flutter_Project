@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'pedido.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:Marmitas/Pages/pedido.dart';
+import 'package:Marmitas/Pages/gerencia.dart';
 import 'package:firebase_core/firebase_core.dart';
 
 void main() async {
@@ -17,40 +17,13 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primaryColor: Colors.green,
-        accentColor: Colors.blueGrey,
+        accentColor: Colors.greenAccent,
       ),
       home: HomePage(),
       routes: {
         '/pedido': (context) => Registra(),
+        '/gerencia': (context) => HomePage(),
       },
-    );
-  }
-}
-
-class HomePage extends StatelessWidget {
-  const HomePage({
-    Key key,
-  }) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(
-          'Marmitas',
-          style: TextStyle(color: Colors.white),
-        ),
-        backgroundColor: Colors.green,
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          Navigator.pushNamed(context, '/pedido');
-        },
-        child: Icon(
-          Icons.add,
-          color: Colors.white,
-        ),
-      ),
     );
   }
 }
